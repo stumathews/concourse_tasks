@@ -6,4 +6,4 @@ image_resource:
 inputs: 
 - name: files
 run:
- path: ./files/run.sh
+ path: ./files/files/run.sh
