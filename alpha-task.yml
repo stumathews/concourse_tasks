@@ -1,5 +1,5 @@
 platform: linux
-resource_image:
+image_resource:
  type: docker-image
  source: {repository: busybox}
 run:
