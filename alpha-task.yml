@@ -1,8 +1,10 @@
-# does this comment work?
+# Definition of an alpha-task task
+# ================================
+
 platform: linux
 image_resource:
  type: docker-image
  source: {repository: busybox}
 run:
  path: echo
- args: [alphaone!]
+ args: [echo command from within alpha-task using busybox container!]
