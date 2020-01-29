@@ -4,6 +4,6 @@ image_resource:
  source: {repository: busybox}
 
 inputs: 
-- name: resource1
-- name: resource2
-  path: 
+- name: concourse_tasks
+run:
+ path: concourse_tasks/files/run.sh
