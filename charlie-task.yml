@@ -8,6 +8,5 @@ run:
  args:
  - -cel
  - |
-   echo "hello charlie"
-   echo "Hello charlie"
+   echo "This is charlie task  executing an inline, multiline bash script within a ubuntu container"
 

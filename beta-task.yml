@@ -7,4 +7,4 @@ run:
  args: 
  - -cel
  - |
-   echo "Beta: Hello from a multlined bash"
+   echo "This is beta-task execuring a inline multlined bash script within ubuntu container!"
